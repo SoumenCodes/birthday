@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    overflow-x: hidden;
+    color: white;
+    
+    
+}
+body{
+    /* background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('q.jpeg'); */
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/2416463/pexels-photo-2416463.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 99%;
+        
+}
+.rain{
+    background-image: url(7.png)    ;
+    height: 100vh;
+    animation: rain .9s linear infinite;
+}
+
+@keyframes rain{
+    from{background-position: 0% 0%;}
+
+    to{background-position: 90% 100%    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+#container{
+    display: flex;
+    /* background-color: rgb(223, 128, 128); */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+}
+h2{
+    font-size: 4rem;
+   
+}
+#chk,#rst{
+    padding: 4px;
+    background-color: rgb(26, 119, 206);
+    border-radius: 7px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+   
+}
+#rst{
+    
+    background-color: rgb(223, 33, 33);
+    
+}
+#box,#btn button{
+    margin: 20px;
+    
+    font-size: 30px;
+}
+#result{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h3{
+    font-size:3rem;
+    text-align: center;
+    /* color: rgb(25, 81, 114); */
+    color: white;
+}

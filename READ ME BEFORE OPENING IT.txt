@@ -1,0 +1,7 @@
+READ ME BEFORE OPENING IT
+
+Hi Soumen Here,
+This is website I have made for my friends birthday. To wish my friend in a special manner. 
+BY puting birth year. It will show how many days he/she has lived yet.
+
+[open the open file to view the website]
